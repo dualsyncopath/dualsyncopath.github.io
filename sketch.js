@@ -186,13 +186,13 @@ function draw() {
     tint(255, textcolor2); // Display at half opacity
     image(img, width / 25, height/2 - 220);
     textWithBlur("Who Am I?", height/2 - 65, textcolor2, width / 25 + 5 , text_size + 12)
-    textWithBlur("", height/2 - 25, textcolor2, width / 25 , text_size)
-    textWithBlur("", height/2 + 5, textcolor2, width / 25 + 2, text_size)
-    textWithBlur("", height/2 + 35, textcolor2, width / 25, text_size)
-    textWithBlur("", height/2 + 65, textcolor, width / 25, text_size)
-    textWithBlur("", height/2 + 95, textcolor, width / 25, text_size)
-    textWithBlur("", height/2 + 125, textcolor, width / 25, text_size)
-    textWithBlur("", height/2 + 170, textcolor, width / 25, text_size)
+    textWithBlur("I am Behnoosh Mohammadzadeh, a PhD student", height/2 - 25, textcolor2, width / 25 , text_size)
+    textWithBlur("in Human-Computer Interaction field at", height/2 + 5, textcolor2, width / 25 + 2, text_size)
+    textWithBlur("LISN, Université Paris Saclay, and", height/2 + 35, textcolor2, width / 25, text_size)
+    textWithBlur("ISIR, Sorbonne Université. I am interested", height/2 + 65, textcolor, width / 25, text_size)
+    textWithBlur("to extend my research to involve humans in", height/2 + 95, textcolor, width / 25, text_size)
+    textWithBlur("teaching creative concepts to machines, auditing", height/2 + 125, textcolor, width / 25, text_size)
+    textWithBlur("their behaviour, and inventing artifacts.", height/2 + 170, textcolor, width / 25, text_size)
     pop();
   }
 
