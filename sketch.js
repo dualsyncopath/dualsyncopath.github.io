@@ -30,7 +30,7 @@ function preload() {
   fa = loadFont('fa.otf');
   br = loadFont('br.otf');
   background1 = loadImage("back2.gif");
-  img = loadImage('beh22.jpg');
+  img = loadImage('beh222.jpg');
 }
 function setup() {
   createCanvas(windowWidth - 23, windowHeight - 22);
