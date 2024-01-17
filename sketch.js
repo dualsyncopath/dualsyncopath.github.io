@@ -120,8 +120,8 @@ function draw() {
     textAlign(CENTER, CENTER)
     noStroke();
     fill(textcolor1)
-    textWithBlur("~ Hi, this is Behnoosh Mohammadzadeh. ~", height - 130, textcolor1, width / 20, text_size)
-    textWithBlur("- I am a PhD student in Human-Computer Interaction. ", height - 100, textcolor1, width / 20 + 10, text_size)
+    textWithBlur("~ Only those who attempt the absurd will achieve the impossible. ~", height - 130, textcolor1, width / 20, 13)
+    textWithBlur("- M. C. Escher", height - 100, textcolor1, width / 20 + 10, 13)
     pop();
   }
 
