@@ -120,8 +120,8 @@ function draw() {
     textAlign(CENTER, CENTER)
     noStroke();
     fill(textcolor1)
-    textWithBlur("~ Only those who attempt the absurd will achieve the impossible. ~", height - 130, textcolor1, width / 20, text_size)
-    textWithBlur("- M. C. Escher", height - 100, textcolor1, width / 20 + 10, text_size)
+    textWithBlur("~ Hi, this is Behnoosh Mohammadzadeh. ~", height - 130, textcolor1, width / 20, text_size)
+    textWithBlur("- I am a Paris based PhD student in Human-Computer Interaction.", height - 100, textcolor1, width / 20 + 10, text_size)
     pop();
   }
 
@@ -186,13 +186,13 @@ function draw() {
     tint(255, textcolor2); // Display at half opacity
     image(img, width / 25, height/2 - 220);
     textWithBlur("Who Am I?", height/2 - 65, textcolor2, width / 25 + 5 , text_size + 12)
-    textWithBlur("I’m Behnoosh Mohammadzadeh, a creative coder &", height/2 - 25, textcolor2, width / 25 , text_size)
-    textWithBlur("Ph.D. student in Human-Computer Interaction", height/2 + 5, textcolor2, width / 25 + 2, text_size)
-    textWithBlur("working on Collaborative Machine Teaching.", height/2 + 35, textcolor2, width / 25, text_size)
-    textWithBlur("I’m interested in conducting collaborative ", height/2 + 65, textcolor, width / 25, text_size)
-    textWithBlur("scenarios in Interactive Machine Learning", height/2 + 95, textcolor, width / 25, text_size)
-    textWithBlur("among domain experts in artistic fields.", height/2 + 125, textcolor, width / 25, text_size)
-    textWithBlur("Looking forward to your collective ideas!", height/2 + 170, textcolor, width / 25, text_size)
+    textWithBlur("", height/2 - 25, textcolor2, width / 25 , text_size)
+    textWithBlur("", height/2 + 5, textcolor2, width / 25 + 2, text_size)
+    textWithBlur("", height/2 + 35, textcolor2, width / 25, text_size)
+    textWithBlur("", height/2 + 65, textcolor, width / 25, text_size)
+    textWithBlur("", height/2 + 95, textcolor, width / 25, text_size)
+    textWithBlur("", height/2 + 125, textcolor, width / 25, text_size)
+    textWithBlur("", height/2 + 170, textcolor, width / 25, text_size)
     pop();
   }
 
