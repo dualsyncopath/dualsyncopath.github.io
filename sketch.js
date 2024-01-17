@@ -152,7 +152,7 @@ function draw() {
     fill(textcolor)
     textWithBlur("Dualsyncopath", height/2 - 55, textcolor, width / 25 + 5, (text_size + 12))
     textWithBlur("is an invitation to collaborate", height/2 - 15, textcolor, width / 25, text_size)
-    textWithBlur("on designing human-AI interactions", height/2 + 15, textcolor, width / 25 + 2, text_size)
+    textWithBlur("on designing human-AI collaborations", height/2 + 15, textcolor, width / 25 + 2, text_size)
     textWithBlur("for the sake of social awareness.", height/2 + 45, textcolor, width / 25, text_size)
     pop();
   }
