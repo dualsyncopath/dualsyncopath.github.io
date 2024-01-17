@@ -121,7 +121,7 @@ function draw() {
     noStroke();
     fill(textcolor1)
     textWithBlur("~ Hi, this is Behnoosh Mohammadzadeh. ~", height - 130, textcolor1, width / 20, text_size)
-    textWithBlur("- I am a Paris based PhD student in Human-Computer Interaction.", height - 100, textcolor1, width / 20 + 10, text_size)
+    textWithBlur("- I am a PhD student in Human-Computer Interaction. ", height - 100, textcolor1, width / 20 + 10, text_size)
     pop();
   }
 
